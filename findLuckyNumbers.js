@@ -11,7 +11,7 @@ function generateRandomList(n) {
     let num = Math.floor(Math.random() * 10) + 1
     if (!nums.includes(num)) {
       nums.push(num)
-    }
+    } 
   }
 
   return nums
